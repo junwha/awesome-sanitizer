@@ -1,4 +1,4 @@
-# awesome-sanitizer
+# awesome-sanitizers
 Curated list of sanitizers to detect bugs
 
 # Sanitizers to detect memory errors (e.g. Address Sanitizer)
