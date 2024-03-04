@@ -47,7 +47,7 @@ A curated list of sanitizers to detect bugs
 - [HWAddressSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer)
 
 ## Sanitizers to detect data races
-- [ThreadSanitizer (The Rust Unstable Book)]( ()
+- [ThreadSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer)
 
 ## Sanitizers to detect uninitialized reads
 - [MemorySanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer)
