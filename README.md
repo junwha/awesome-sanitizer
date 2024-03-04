@@ -1,7 +1,7 @@
 # awesome-sanitizers
 Curated list of sanitizers to detect bugs
 
-# Sanitizers to detect memory errors (e.g. Address Sanitizer)
+# Sanitizers to detect memory errors
 - [AddressSanitizer: A Fast Address Sanity Checker](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf)
   - [AddressSanitizer (Clang documentation)](https://clang.llvm.org/docs/AddressSanitizer.html)
   - [wiki/Address Sanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer)  
@@ -13,20 +13,20 @@ Curated list of sanitizers to detect bugs
 - [SANRAZOR: Reducing Redundant Sanitizer Checks in C/C++ Programs](https://www.usenix.org/conference/osdi21/presentation/zhang)
 - [OBSan: An Out-Of-Bound Sanitizer to Harden DNN Executables.](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf)
 
-# Sanitizers to detect data races (e.g. Thread Sanitizer)
+# Sanitizers to detect data races
 - [ThreadSanitizer (Clang documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html)
 - [ThreadSanitizerCppManual](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual)
 <!-- TODO: Add sanitizers for GPU data race -->
 
-# Sanitizers to detect uninitialized reads (e.g. Memory Sanitizer)
+# Sanitizers to detect uninitialized reads
 - [MemorySanitizer (Clang documentation)](https://clang.llvm.org/docs/MemorySanitizer.html)
 
-# Sanitizers to detect type confusions
+# Sanitizers to detect type confusion
 - [TypeSan: Practical Type Confusion Detection](https://dl.acm.org/doi/abs/10.1145/2976749.2978405)
 - [CastSan: Efficient Detection of Polymorphic C++ Object Type Confusions with LLVM](https://link.springer.com/chapter/10.1007/978-3-319-99073-6_1)
 - [HexType: Efficient Detection of Type Confusion Errors for C++](https://dl.acm.org/doi/abs/10.1145/3133956.3134062)
 - [EffectiveSan: type and memory error detection using dynamically typed C/C++](https://dl.acm.org/doi/abs/10.1145/3192366.3192388)
 - [TCD: Statically Detecting Type Confusion Errors in C++ Programs](https://ieeexplore.ieee.org/abstract/document/8987463/)
 
-# Sanitizers for dataflow analysis (e.g. DataFlow Sanitizer)
+# Sanitizers for dataflow analysis
 - [DataFlowSanitizer (Clang documentation)](https://clang.llvm.org/docs/DataFlowSanitizer.html)
