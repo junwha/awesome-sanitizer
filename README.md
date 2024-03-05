@@ -19,7 +19,7 @@ A curated list of sanitizers to detect bugs
   - [SanRazor-repo/SanRazor](https://github.com/SanRazor-repo/SanRazor)
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) -  An Out-Of-Bound Sanitizer to Harden DNN Executables
   - [yanzuochen/obsan](https://github.com/yanzuochen/obsan)
-# data races
+## data races
 - [ThreadSanitizer](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/35604.pdf) - data race detection in practice
   - [ThreadSanitizer (Clang documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html)
   - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual)
