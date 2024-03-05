@@ -20,6 +20,11 @@ A curated list of sanitizers to detect bugs
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) -  An Out-Of-Bound Sanitizer to Harden DNN Executables
   - [yanzuochen/obsan](https://github.com/yanzuochen/obsan)
 
+## undefined behavior
+- [UndefinedBehaviorSanitizer (Clang documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+  - [Improving Application Security with UndefinedBehaviorSanitizer (UBSan) and GCC](https://blogs.oracle.com/linux/post/improving-application-security-with-undefinedbehaviorsanitizer-ubsan-and-gcc)
+  - [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213) 
+  
 ## data races
 - [ThreadSanitizer](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/35604.pdf) - data race detection in practice
   - [ThreadSanitizer (Clang documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html)
