@@ -2,7 +2,7 @@
 A curated list of sanitizers to detect bugs
 
 # C/C++
-## memory errors
+## address sanity
 - [AddressSanitizer](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf) - A Fast Address Sanity Checker
   - [AddressSanitizer (Clang documentation)](https://clang.llvm.org/docs/AddressSanitizer.html)
   - [wiki/Address Sanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer)  
@@ -42,7 +42,7 @@ A curated list of sanitizers to detect bugs
 
 
 # Rust
-## memory errors
+## address sanity
 - [AddressSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#addresssanitizer)
 - [HWAddressSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer)
 
