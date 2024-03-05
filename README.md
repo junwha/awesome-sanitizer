@@ -19,6 +19,7 @@ A curated list of sanitizers to detect bugs
   - [SanRazor-repo/SanRazor](https://github.com/SanRazor-repo/SanRazor)
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) -  An Out-Of-Bound Sanitizer to Harden DNN Executables
   - [yanzuochen/obsan](https://github.com/yanzuochen/obsan)
+
 ## data races
 - [ThreadSanitizer](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/35604.pdf) - data race detection in practice
   - [ThreadSanitizer (Clang documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html)
@@ -29,6 +30,7 @@ A curated list of sanitizers to detect bugs
 - [MemorySanitizer](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43308.pdf) - fast detector of uninitialized memory use in C++
   - [MemorySanitizer (Clang documentation)](https://clang.llvm.org/docs/MemorySanitizer.html)
   - [wiki/MemorySanitizer](https://github.com/google/sanitizers/wiki/MemorySanitizer)
+- [MTSan](https://www.usenix.org/conference/usenixsecurity23/presentation/chen-xingman) - A Feasible and Practical Memory Sanitizer for Fuzzing {COTS} Binaries
 
 ## type confusion
 - [TypeSan](https://dl.acm.org/doi/abs/10.1145/2976749.2978405) - Practical Type Confusion Detection
