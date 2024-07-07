@@ -19,6 +19,8 @@ A curated list of sanitizers to detect bugs
   - [SanRazor-repo/SanRazor](https://github.com/SanRazor-repo/SanRazor)
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) -  An Out-Of-Bound Sanitizer to Harden DNN Executables
   - [yanzuochen/obsan](https://github.com/yanzuochen/obsan)
+- [ERASan](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a239/1WPcYZde4BW) - Efficient Rust Address Sanitizer
+  - [S2-Lab/ERASan](https://github.com/S2-Lab/ERASan)
 
 ## undefined behavior
 - [UndefinedBehaviorSanitizer (Clang documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
