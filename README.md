@@ -12,7 +12,7 @@ A curated list of sanitizers to detect bugs
   * [address sanity](#address-sanity-1)
   * [data races](#data-races-1)
   * [uninitialized reads](#uninitialized-reads-1)
-- [AI](#ai)
+- [ETC](#ETC)
 
 # C/C++
 ## address sanity
@@ -83,9 +83,9 @@ A curated list of sanitizers to detect bugs
 - [MemorySanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer)
 - [MemTagSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer)
 
-# AI
+# ETC
 - [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting Backdoors in Neural Networks
 - [DySan](https://dl.acm.org/doi/abs/10.1145/3433210.3453095?casa_token=RPAlXNyj-fMAAAAA:7comC496zZ1bnkYLCU3iCYEglWJCjC82USuU9fK41a-kqCVWqYpppaDpjYiCVRVKcE546RD62w) - Dynamically Sanitizing Motion Sensor Data Against Sensitive Inferences through Adversarial Networks
-
+  - [DynamicSanitizer/DySan](https://github.com/DynamicSanitizer/DySan)
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
