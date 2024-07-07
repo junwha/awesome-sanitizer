@@ -1,6 +1,20 @@
 # awesome-sanitizers
 A curated list of sanitizers to detect bugs
 
+- [C/C++](#c-c--)
+  * [address sanity](#address-sanity)
+  * [undefined behavior](#undefined-behavior)
+  * [data races](#data-races)
+  * [uninitialized reads](#uninitialized-reads)
+  * [type confusion](#type-confusion)
+  * [dataflow analysis](#dataflow-analysis)
+- [Rust](#rust)
+  * [address sanity](#address-sanity-1)
+  * [data races](#data-races-1)
+  * [uninitialized reads](#uninitialized-reads-1)
+- [AI](#ai)
+  * [backdoor](#backdoor)
+
 # C/C++
 ## address sanity
 - [AddressSanitizer](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf) - A Fast Address Sanity Checker
@@ -65,4 +79,8 @@ A curated list of sanitizers to detect bugs
 # AI
 ## backdoor
 - [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting Backdoors in Neural Networks
+
+
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
