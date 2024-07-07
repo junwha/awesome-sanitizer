@@ -57,9 +57,12 @@ A curated list of sanitizers to detect bugs
 
 ## type confusion
 - [TypeSan](https://dl.acm.org/doi/abs/10.1145/2976749.2978405) - Practical Type Confusion Detection
+  - [vusec/typesan](https://github.com/vusec/typesan)
 - [CastSan](https://link.springer.com/chapter/10.1007/978-3-319-99073-6_1) - Efficient Detection of Polymorphic C++ Object Type Confusions with LLVM
 - [HexType](https://dl.acm.org/doi/abs/10.1145/3133956.3134062) - Efficient Detection of Type Confusion Errors for C++
+  - [HexHive/HexType](https://github.com/HexHive/HexType)
 - [EffectiveSan](https://dl.acm.org/doi/abs/10.1145/3192366.3192388) - type and memory error detection using dynamically typed C/C++
+  - [GJDuck/EffectiveSan](https://github.com/GJDuck/EffectiveSan)
 - [TCD](https://ieeexplore.ieee.org/abstract/document/8987463/) - Statically Detecting Type Confusion Errors in C++ Programs
 
 ## dataflow analysis
