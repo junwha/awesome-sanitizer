@@ -1,4 +1,4 @@
-# awesome-sanitizers
+# Awesome Sanitizer
 A curated list of sanitizers to detect bugs
 
 - [C/C++](#c-c--)
