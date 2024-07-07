@@ -63,6 +63,6 @@ A curated list of sanitizers to detect bugs
 - [MemTagSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer)
 
 # AI
-# backdoor
+## backdoor
 - [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting Backdoors in Neural Networks
 
