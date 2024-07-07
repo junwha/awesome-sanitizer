@@ -13,7 +13,6 @@ A curated list of sanitizers to detect bugs
   * [data races](#data-races-1)
   * [uninitialized reads](#uninitialized-reads-1)
 - [AI](#ai)
-  * [backdoor](#backdoor)
 
 # C/C++
 ## address sanity
@@ -22,7 +21,9 @@ A curated list of sanitizers to detect bugs
   - [wiki/Address Sanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer)  
   - [HOWTO: Use Address Sanitizer](https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer)
 - [ASAN--](https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-yuchen) - Debloating Address Sanitizer
-  - [junxzm1990/ASAN--](https://github.com/junxzm1990/ASAN--) 
+  - [junxzm1990/ASAN--](https://github.com/junxzm1990/ASAN--)
+- [RetroWrite](https://ieeexplore.ieee.org/abstract/document/9152762) - Statically Instrumenting COTS Binaries for Fuzzing and Sanitization
+  - [HexHive/retrowrite](https://github.com/HexHive/retrowrite) 
 - [BoKASAN](https://www.usenix.org/conference/usenixsecurity23/presentation/cho) - Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing
   - [seclab-yonsei/BoKASAN](https://github.com/seclab-yonsei/BoKASAN)
 - [SafePM](https://dl.acm.org/doi/10.1145/3492321.3519574) -  a sanitizer for persistent memory
@@ -33,6 +34,7 @@ A curated list of sanitizers to detect bugs
   - [SanRazor-repo/SanRazor](https://github.com/SanRazor-repo/SanRazor)
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) -  An Out-Of-Bound Sanitizer to Harden DNN Executables
   - [yanzuochen/obsan](https://github.com/yanzuochen/obsan)
+- [ASanity](https://ieeexplore.ieee.org/abstract/document/10188628) - On Bug Shadowing by Early ASan Exits
 
 ## undefined behavior
 - [UndefinedBehaviorSanitizer (Clang documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
@@ -50,6 +52,8 @@ A curated list of sanitizers to detect bugs
   - [MemorySanitizer (Clang documentation)](https://clang.llvm.org/docs/MemorySanitizer.html)
   - [wiki/MemorySanitizer](https://github.com/google/sanitizers/wiki/MemorySanitizer)
 - [MTSan](https://www.usenix.org/conference/usenixsecurity23/presentation/chen-xingman) - A Feasible and Practical Memory Sanitizer for Fuzzing {COTS} Binaries
+- [FloatZone](https://www.usenix.org/conference/usenixsecurity23/presentation/gorter) - Accelerating Memory Error Detection using the Floating Point Unit
+  - [vusec/floatzone](https://github.com/vusec/floatzone)
 
 ## type confusion
 - [TypeSan](https://dl.acm.org/doi/abs/10.1145/2976749.2978405) - Practical Type Confusion Detection
@@ -77,10 +81,8 @@ A curated list of sanitizers to detect bugs
 - [MemTagSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer)
 
 # AI
-## backdoor
 - [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting Backdoors in Neural Networks
-
-
+- [DySan](https://dl.acm.org/doi/abs/10.1145/3433210.3453095?casa_token=RPAlXNyj-fMAAAAA:7comC496zZ1bnkYLCU3iCYEglWJCjC82USuU9fK41a-kqCVWqYpppaDpjYiCVRVKcE546RD62w) - Dynamically Sanitizing Motion Sensor Data Against Sensitive Inferences through Adversarial Networks
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
