@@ -1,4 +1,4 @@
-# Awesome Sanitizer
+# Awesome Sanitizer [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A curated list of sanitizers to detect bugs
 
 - [C/C++](#c-c--)
@@ -87,5 +87,6 @@ A curated list of sanitizers to detect bugs
 - [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting Backdoors in Neural Networks
 - [DySan](https://dl.acm.org/doi/abs/10.1145/3433210.3453095?casa_token=RPAlXNyj-fMAAAAA:7comC496zZ1bnkYLCU3iCYEglWJCjC82USuU9fK41a-kqCVWqYpppaDpjYiCVRVKcE546RD62w) - Dynamically Sanitizing Motion Sensor Data Against Sensitive Inferences through Adversarial Networks
   - [DynamicSanitizer/DySan](https://github.com/DynamicSanitizer/DySan)
+
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
