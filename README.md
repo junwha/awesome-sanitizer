@@ -1,5 +1,7 @@
 # Awesome Sanitizer [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-A curated list of sanitizers to detect bugs.
+_A curated list of sanitizers._
+
+Sanitizers are dynamic tools that detect software bugs through compiler instrumentation.
 
 - [C/C++](#c-c--)
   * [address sanity](#address-sanity)
