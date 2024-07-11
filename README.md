@@ -3,6 +3,7 @@ _A curated list of sanitizers._
 
 Sanitizers are dynamic tools that detect software bugs through compiler instrumentation.
 
+# Contents
 - [C/C++](#c-c--)
   * [address sanity](#address-sanity)
   * [undefined behavior](#undefined-behavior)
