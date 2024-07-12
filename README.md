@@ -11,9 +11,12 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   * [uninitialized reads](#uninitialized-reads)
   * [type confusion](#type-confusion)
   * [dataflow analysis](#dataflow-analysis)
+- [GPU](#gpu)
+  * [sanitizers by vendors](#sanitizers-by-vendors)
+  * [data races](#data-races-1)
 - [Rust](#rust)
   * [address sanity](#address-sanity-1)
-  * [data races](#data-races-1)
+  * [data races](#data-races-2)
   * [uninitialized reads](#uninitialized-reads-1)
 - [ETC](#ETC)
 
@@ -111,6 +114,19 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 [MemorySanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer)
 
 [MemTagSanitizer (The Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer)
+
+# GPU
+
+## sanitizers by vendors
+
+[NVIDIA: cuCatch](https://dl.acm.org/doi/abs/10.1145/3591225) - A Debugging Tool for Efficiently Catching Memory Safety Violations in CUDA Applications
+
+[AMD: Using the AddressSanitizer on a GPU (beta release)](https://rocm.docs.amd.com/en/latest/conceptual/using-gpu-sanitizer.html)
+
+## data races
+
+[iGUARD](https://dl.acm.org/doi/abs/10.1145/3477132.3483545) - In-GPU Advanced Race Detection
+- [csl-iisc/iGUARD-SOSP21](https://github.com/csl-iisc/iGUARD-SOSP21)
 
 # ETC
 
