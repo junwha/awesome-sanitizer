@@ -11,13 +11,13 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   * [uninitialized reads](#uninitialized-reads)
   * [type confusion](#type-confusion)
   * [dataflow analysis](#dataflow-analysis)
-- [GPU](#gpu)
-  * [sanitizers by vendors](#sanitizers-by-vendors)
-  * [data races](#data-races-1)
 - [Rust](#rust)
   * [address sanity](#address-sanity-1)
-  * [data races](#data-races-2)
+  * [data races](#data-races-1)
   * [uninitialized reads](#uninitialized-reads-1)
+- [GPU](#gpu)
+  * [sanitizers by vendors](#sanitizers-by-vendors)
+  * [data races](#data-races-2)
 - [ETC](#ETC)
 
 # C/C++
