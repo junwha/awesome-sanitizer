@@ -1,5 +1,5 @@
 # Awesome Sanitizer [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-_A curated list of sanitizers._
+_A curated list of sanitizer resources._
 
 Sanitizers are dynamic tools that detect software bugs through compiler instrumentation.
 
