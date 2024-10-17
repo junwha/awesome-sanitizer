@@ -90,6 +90,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 [TCD](https://ieeexplore.ieee.org/abstract/document/8987463/) - Statically Detecting Type Confusion Errors in C++ Programs.
 
+[type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting Type Confusion with Inline Type Information
+- [HexHive/typepp](https://github.com/HexHive/typepp/)
+
 ## dataflow analysis
 
 [DataFlowSanitizer (Clang documentation)](https://clang.llvm.org/docs/DataFlowSanitizer.html)
