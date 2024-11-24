@@ -66,6 +66,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 [ThreadSanitizer](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/35604.pdf) - data race detection in practice.
 - [ThreadSanitizer (Clang documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html)
 - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual)
+
+[BINTSAN](https://github.com/junwha/awesome-sanitizer/edit/main/README.md) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard
+
 <!-- TODO: Add sanitizers for GPU data race -->
 
 ## uninitialized reads
