@@ -62,7 +62,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang docs.  
   - [Improving Application Security with UndefinedBehaviorSanitizer and GCC](https://blogs.oracle.com/linux/post/improving-application-security-with-undefinedbehaviorsanitizer-ubsan-and-gcc) - Oracle blog post.  
-  - [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213) - John Regehr’s blog.
+  - [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213) - John Regehr's blog.
 
 ### Data Races
 
@@ -100,8 +100,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [TCD](https://ieeexplore.ieee.org/abstract/document/8987463/) - Statically detecting type confusion errors in C++ programs.
 
-- [type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting type confusion with inline type information.  
-  - [HexHive/typepp](https://github.com/HexHive/typepp/) - type++ repository.
+- [Type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting type confusion with inline type information.  
+  - [HexHive/typepp](https://github.com/HexHive/typepp/) - Type++ repository.
 
 - [T-PRUNIFY](https://www.usenix.org/system/files/usenixsecurity24-zhai.pdf) - Pruning redundant sanitizer checks by developer-implemented type checks.
 
@@ -139,7 +139,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 ### Sanitizers by Vendors
 
 - [NVIDIA: cuCatch](https://dl.acm.org/doi/abs/10.1145/3591225) - A debugging tool for efficiently catching memory safety violations in CUDA applications.
-- [AMD: Using the AddressSanitizer on a GPU](https://rocm.docs.amd.com/en/latest/conceptual/using-gpu-sanitizer.html) - Beta release for AMD’s GPU sanitizer.
+- [AMD: Using the AddressSanitizer on a GPU](https://rocm.docs.amd.com/en/latest/conceptual/using-gpu-sanitizer.html) - Beta release for AMD's GPU sanitizer.
 
 ### Data Races
 
