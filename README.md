@@ -19,7 +19,6 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [Sanitizers by Vendors](#sanitizers-by-vendors)
   - [Data Races](#data-races-2)
 - [Etc](#etc)
-- [Contributing](#contributing)
 
 ---
 
@@ -161,4 +160,4 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 Please refer to the guidelines at [Contributing.md](https://github.com/junwha0511/awesome-sanitizer#Contributing.md) for details.
 
-<sub><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></sub>
+<sub><i><a href="http://ecotrust-canada.github.io/markdown-toc/">Table of contents generated with markdown-toc</a></i></sub>
