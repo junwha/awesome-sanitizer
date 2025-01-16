@@ -146,6 +146,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 [iGUARD](https://dl.acm.org/doi/abs/10.1145/3477132.3483545) - In-GPU Advanced Race Detection
 - [csl-iisc/iGUARD-SOSP21](https://github.com/csl-iisc/iGUARD-SOSP21)
 
+[cuCatch](https://dl.acm.org/doi/abs/10.1145/3591225) - A Debugging Tool for Efficiently Catching Memory Safety Violations in CUDA Applications
+
+
 # ETC
 
 [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting Backdoors in Neural Networks.
