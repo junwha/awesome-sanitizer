@@ -102,6 +102,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 [type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting Type Confusion with Inline Type Information
 - [HexHive/typepp](https://github.com/HexHive/typepp/)
 
+[T-PRUNIFY](https://www.usenix.org/system/files/usenixsecurity24-zhai.pdf) - Don't Waste My Efforts: Pruning Redundant Sanitizer Checks by Developer-Implemented Type Checks
+
+
 ## dataflow analysis
 
 [DataFlowSanitizer (Clang documentation)](https://clang.llvm.org/docs/DataFlowSanitizer.html)
@@ -116,6 +119,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 [ERASan](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a239/1WPcYZde4BW) - Efficient Rust Address Sanitizer.
 - [S2-Lab/ERASan](https://github.com/S2-Lab/ERASan)
+
+[RustSan](https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf) - Retrofitting AddressSanitizer for Efficient Sanitization of Rust
+
 
 ## data races
 
