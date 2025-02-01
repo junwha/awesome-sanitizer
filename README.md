@@ -52,14 +52,14 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) - An out-of-bound sanitizer to harden DNN executables.  
   [![Star](https://img.shields.io/github/stars/yanzuochen/obsan.svg?style=social&label=yanzuochen/obsan)](https://github.com/yanzuochen/obsan)
 
-- [GWP-ASan](https://arxiv.org/abs/2311.09394) - Sampling-Based Detection of Memory-Safety Bugs in Production
+- [GWP-ASan](https://arxiv.org/abs/2311.09394) - Sampling-Based Detection of Memory-Safety Bugs in Production.  
   [![Star](https://img.shields.io/github/stars/google/gwpsan.svg?style=social&label=google/gwpsan)](https://github.com/google/gwpsan)
 
-- [ASanity](https://ieeexplore.ieee.org/abstract/document/10188628) - On bug shadowing by early ASan exits.
+- [ASanity](https://ieeexplore.ieee.org/abstract/document/10188628) - On bug shadowing by early ASan exits.  
 
-- [CMASan](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a074/21B7RisjQY0) - Custom Memory Allocator-aware Address Sanitizer.
+- [CMASan](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a074/21B7RisjQY0) - Custom Memory Allocator-aware Address Sanitizer.  
 
-- [GIANTSAN](https://dl.acm.org/doi/10.1145/3620665.3640391) - Efficient memory sanitization with segment folding.
+- [GIANTSAN](https://dl.acm.org/doi/10.1145/3620665.3640391) - Efficient memory sanitization with segment folding.  
   [![Star](https://img.shields.io/github/stars/AceSrc/GiantSan-Artifact.svg?style=social&label=AceSrc/GiantSan-Artifact)](https://github.com/AceSrc/GiantSan-Artifact)
   
 ### Undefined Behavior
@@ -74,7 +74,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [ThreadSanitizer (Clang Documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html) - Official Clang docs.  
   - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual) - Google sanitizers wiki.
 
-- [BINTSAN](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard.
+- [BINTSAN](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard.  
 
 ### Uninitialized Reads
 
@@ -87,7 +87,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [FloatZone](https://www.usenix.org/conference/usenixsecurity23/presentation/gorter) - Accelerating memory error detection using the floating point unit.  
   [![Star](https://img.shields.io/github/stars/vusec/floatzone.svg?style=social&label=vusec/floatzone)](https://github.com/vusec/floatzone)
 
-- [MSET](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a088/21TfesaEHTy) - Evaluating the effectiveness of memory safety sanitizers.
+- [MSET](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a088/21TfesaEHTy) - Evaluating the effectiveness of memory safety sanitizers.  
 
 ### Type Confusion
 
@@ -102,12 +102,12 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [EffectiveSan](https://dl.acm.org/doi/abs/10.1145/3192366.3192388) - Type and memory error detection using dynamically typed C/C++.  
   [![Star](https://img.shields.io/github/stars/GJDuck/EffectiveSan.svg?style=social&label=GJDuck/EffectiveSan)](https://github.com/GJDuck/EffectiveSan)
 
-- [TCD](https://ieeexplore.ieee.org/abstract/document/8987463/) - Statically detecting type confusion errors in C++ programs.
+- [TCD](https://ieeexplore.ieee.org/abstract/document/8987463/) - Statically detecting type confusion errors in C++ programs.  
 
 - [Type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting type confusion with inline type information.  
   [![Star](https://img.shields.io/github/stars/HexHive/typepp.svg?style=social&label=HexHive/typepp)](https://github.com/HexHive/typepp)
 
-- [T-PRUNIFY](https://www.usenix.org/system/files/usenixsecurity24-zhai.pdf) - Pruning redundant sanitizer checks by developer-implemented type checks.
+- [T-PRUNIFY](https://www.usenix.org/system/files/usenixsecurity24-zhai.pdf) - Pruning redundant sanitizer checks by developer-implemented type checks.  
   [![Star](https://img.shields.io/github/stars/seclab-ucr/TPrunify.svg?style=social&label=seclab-ucr/TPrunify)](https://github.com/seclab-ucr/TPrunify)
 
 ### Dataflow Analysis
@@ -121,12 +121,12 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 ### Address Sanity
 
 - [AddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#addresssanitizer) - AddressSanitizer for Rust.  
-- [HWAddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted ASan for Rust.
+- [HWAddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted ASan for Rust.  
 
 - [ERASan](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a239/1WPcYZde4BW) - Efficient Rust Address Sanitizer.  
   [![Star](https://img.shields.io/github/stars/S2-Lab/ERASan.svg?style=social&label=S2-Lab/ERASan)](https://github.com/S2-Lab/ERASan)
 
-- [RustSan](https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf) - Retrofitting AddressSanitizer for efficient sanitization of Rust.
+- [RustSan](https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf) - Retrofitting AddressSanitizer for efficient sanitization of Rust.  
   [![Star](https://img.shields.io/github/stars/sslab-skku/RustSan.svg?style=social&label=sslab-skku/RustSan)](https://github.com/sslab-skku/RustSan)
 
 ### Data Races
@@ -156,7 +156,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ## Etc
 
-- [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting backdoors in neural networks.
+- [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting backdoors in neural networks.  
   [![Star](https://img.shields.io/github/stars/zhuhong1996/NeuralSanitizer.svg?style=social&label=zhuhong1996/NeuralSanitizer)](https://github.com/zhuhong1996/NeuralSanitizer)
 
 - [DySan](https://dl.acm.org/doi/abs/10.1145/3433210.3453095) - Dynamically sanitizing motion sensor data through adversarial networks.  
