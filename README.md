@@ -99,8 +99,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2023-red)](#)
 
 - [FloatZone](https://www.usenix.org/conference/usenixsecurity23/presentation/gorter) - Accelerating memory error detection using the floating point unit.
-  [![Star](https://img.shields.io/github/stars/vusec/floatzone.svg?style=social&label=vusec/floatzone)](https://github.com/vusec/floatzone)
   [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2023-red)](#)
+  [![Star](https://img.shields.io/github/stars/vusec/floatzone.svg?style=social&label=vusec/floatzone)](https://github.com/vusec/floatzone)
 
 - [MSET](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a088/21TfesaEHTy) - Evaluating the effectiveness of memory safety sanitizers
   [![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)](#)
