@@ -33,7 +33,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [HOWTO: Use Address Sanitizer](https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer) - Basic usage tutorial.
 
 - [ASAN--](https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-yuchen) - Debloating Address Sanitizer.
-  [![Conference](https://img.shields.io/badge/USENIX_Security-2012-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2012-red)](#)
   [![Star](https://img.shields.io/github/stars/junxzm1990/ASAN--.svg?style=social&label=junxzm1990/ASAN--)](https://github.com/junxzm1990/ASAN--)
 
 - [FuZZan](https://www.usenix.org/conference/atc20/presentation/jeon) - Efficient sanitizer metadata design for fuzzing.
@@ -49,7 +49,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   [![Star](https://img.shields.io/github/stars/HexHive/retrowrite.svg?style=social&label=HexHive/retrowrite)](https://github.com/HexHive/retrowrite)
 
 - [BoKASAN](https://www.usenix.org/conference/usenixsecurity23/presentation/cho) - Binary-only Kernel Address Sanitizer for effective kernel fuzzing.
-  [![Conference](https://img.shields.io/badge/USENIX_Security-2023-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2023-red)](#)
   [![Star](https://img.shields.io/github/stars/seclab-yonsei/BoKASAN.svg?style=social&label=seclab-yonsei/BoKASAN)](https://github.com/seclab-yonsei/BoKASAN)
   
 - [SafePM](https://dl.acm.org/doi/10.1145/3492321.3519574) - A sanitizer for persistent memory.
@@ -87,7 +87,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual) - Google sanitizers wiki.
 
 - [BINTSAN](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard.
-  [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2024-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)](#)
 
 ### Uninitialized Reads
 
@@ -96,10 +96,10 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [wiki/MemorySanitizer](https://github.com/google/sanitizers/wiki/MemorySanitizer) - Google sanitizers wiki.
 
 - [MTSan](https://www.usenix.org/conference/usenixsecurity23/presentation/chen-xingman) - A feasible and practical memory sanitizer for fuzzing COTS binaries.
-  [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2023-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2023-red)](#)
 
 - [FloatZone](https://www.usenix.org/conference/usenixsecurity23/presentation/gorter) - Accelerating memory error detection using the floating point unit.
-  [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2023-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2023-red)](#)
   [![Star](https://img.shields.io/github/stars/vusec/floatzone.svg?style=social&label=vusec/floatzone)](https://github.com/vusec/floatzone)
 
 - [MSET](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a088/21TfesaEHTy) - Evaluating the effectiveness of memory safety sanitizers
@@ -130,7 +130,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   [![Star](https://img.shields.io/github/stars/HexHive/typepp.svg?style=social&label=HexHive/typepp)](https://github.com/HexHive/typepp)
 
 - [T-PRUNIFY](https://www.usenix.org/system/files/usenixsecurity24-zhai.pdf) - Pruning redundant sanitizer checks by developer-implemented type checks.
-  [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2024-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)](#)
   [![Star](https://img.shields.io/github/stars/seclab-ucr/TPrunify.svg?style=social&label=seclab-ucr/TPrunify)](https://github.com/seclab-ucr/TPrunify)
 
 ### Dataflow Analysis
@@ -147,11 +147,11 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [HWAddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted ASan for Rust.  
 
 - [ERASan](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a239/1WPcYZde4BW) - Efficient Rust Address Sanitizer.
-  [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2024-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)](#)
   [![Star](https://img.shields.io/github/stars/S2-Lab/ERASan.svg?style=social&label=S2-Lab/ERASan)](https://github.com/S2-Lab/ERASan)
 
 - [RustSan](https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf) - Retrofitting AddressSanitizer for efficient sanitization of Rust.
-  [![Conference](https://img.shields.io/badge/USENIX_SECURITY-2024-red)](#)
+  [![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)](#)
   [![Star](https://img.shields.io/github/stars/sslab-skku/RustSan.svg?style=social&label=sslab-skku/RustSan)](https://github.com/sslab-skku/RustSan)
 
 ### Data Races
