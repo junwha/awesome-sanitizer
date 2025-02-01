@@ -194,6 +194,6 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ## Contributing
 
-Please refer to the guidelines at [Contributing.md](https://github.com/junwha0511/awesome-sanitizer#Contributing.md) for details.
+Please refer to the guidelines at [contributing.md](https://github.com/junwha0511/awesome-sanitizer#contributing.md) for details.
 
 <sub><i><a href="http://ecotrust-canada.github.io/markdown-toc/">Table of contents generated with markdown-toc</a></i></sub>
