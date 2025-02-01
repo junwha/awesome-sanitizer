@@ -26,7 +26,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Address Sanity
 
-- [AddressSanitizer (Paper)](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf) - A fast address sanity checker.  
+- [AddressSanitizer (Paper)](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf) - A fast address sanity checker.
   - [AddressSanitizer (Clang Documentation)](https://clang.llvm.org/docs/AddressSanitizer.html) - Official Clang docs.  
   - [wiki/AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) - Google sanitizers wiki.  
   - [HOWTO: Use Address Sanitizer](https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer) - Basic usage tutorial.
