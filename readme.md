@@ -28,7 +28,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [AddressSanitizer (Paper)](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf) - A fast address sanity checker.
   ![Conference](https://img.shields.io/badge/USENIX_ATC-2022-red)
-  - [AddressSanitizer (Clang Documentation)](https://clang.llvm.org/docs/AddressSanitizer.html) - Official Clang(LLVM) docs for Address Sanitizer.  
+  - [AddressSanitizer (Clang Documentation)](https://clang.llvm.org/docs/AddressSanitizer.html) - Official Clang (LLVM) docs for Address Sanitizer.  
   - [wiki/AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) - Address Sanitizer page in Google sanitizers wiki.  
   - [HOWTO: Use Address Sanitizer](https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer) - Basic usage tutorial for Address Sanitizer.
 
@@ -76,14 +76,14 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Undefined Behavior
 
-- [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang(LLVM) docs for Undefined Behavior Sanitizer.  
+- [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang (LLVM) docs for Undefined Behavior Sanitizer.  
   - [Improving Application Security with UndefinedBehaviorSanitizer and GCC](https://blogs.oracle.com/linux/post/improving-application-security-with-undefinedbehaviorsanitizer-ubsan-and-gcc) - Basic usage tutorial for Undefined Behavior Sanitizer in Oracle blog.  
   - [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213) - Basic usage tutorial for Undefined Behavior Sanitizer in John Regehr's blog.
 
 ### Data Races
 
 - [ThreadSanitizer (Paper)](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/35604.pdf) - Data race detection in practice.  
-  - [ThreadSanitizer (Clang Documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html) - Official Clang(LLVM) docs for Thread Sanitizer.  
+  - [ThreadSanitizer (Clang Documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html) - Official Clang (LLVM) docs for Thread Sanitizer.  
   - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual) - Thread Sanitizer page in Google sanitizers wiki.
 
 - [BINTSAN](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard.
