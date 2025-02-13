@@ -1,7 +1,8 @@
 # Awesome Sanitizer [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-A curated list of sanitizer resources.
 
-Sanitizers are dynamic tools that detect software bugs through compiler instrumentation.
+> A curated list of sanitizer resources.
+
+Sanitizers are dynamic tools that detect software bugs through compiler instrumentation, inserting runtime checks into the code during compilation. They are often paired with fuzzing, which uses random inputs to thoroughly test the instrumented code.
 
 ## Contents
 - [C/C++](#cc)
