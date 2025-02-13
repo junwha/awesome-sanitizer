@@ -28,9 +28,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [AddressSanitizer (Paper)](https://www.usenix.org/system/files/conference/atc12/atc12-final39.pdf) - A fast address sanity checker.
   ![Conference](https://img.shields.io/badge/USENIX_ATC-2022-red)
-  - [AddressSanitizer (Clang Documentation)](https://clang.llvm.org/docs/AddressSanitizer.html) - Official Clang docs.  
-  - [wiki/AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) - Google sanitizers wiki.  
-  - [HOWTO: Use Address Sanitizer](https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer) - Basic usage tutorial.
+  - [AddressSanitizer (Clang Documentation)](https://clang.llvm.org/docs/AddressSanitizer.html) - Official Clang(LLVM) docs for Address Sanitizer.  
+  - [wiki/AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) - Address Sanitizer page in Google sanitizers wiki.  
+  - [HOWTO: Use Address Sanitizer](https://www.osc.edu/resources/getting_started/howto/howto_use_address_sanitizer) - Basic usage tutorial for Address Sanitizer.
 
 - [ASAN--](https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-yuchen) - Debloating Address Sanitizer.
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2012-red)
@@ -76,15 +76,15 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Undefined Behavior
 
-- [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang docs.  
-  - [Improving Application Security with UndefinedBehaviorSanitizer and GCC](https://blogs.oracle.com/linux/post/improving-application-security-with-undefinedbehaviorsanitizer-ubsan-and-gcc) - Oracle blog post.  
-  - [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213) - John Regehr's blog.
+- [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang(LLVM) docs for Undefined Behavior Sanitizer.  
+  - [Improving Application Security with UndefinedBehaviorSanitizer and GCC](https://blogs.oracle.com/linux/post/improving-application-security-with-undefinedbehaviorsanitizer-ubsan-and-gcc) - Basic usage tutorial for Undefined Behavior Sanitizer in Oracle blog.  
+  - [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213) - Basic usage tutorial for Undefined Behavior Sanitizer in John Regehr's blog.
 
 ### Data Races
 
 - [ThreadSanitizer (Paper)](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/35604.pdf) - Data race detection in practice.  
-  - [ThreadSanitizer (Clang Documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html) - Official Clang docs.  
-  - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual) - Google sanitizers wiki.
+  - [ThreadSanitizer (Clang Documentation)](https://clang.llvm.org/docs/ThreadSanitizer.html) - Official Clang(LLVM) docs for Thread Sanitizer.  
+  - [wiki/ThreadSanitizer](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual) - Thread Sanitizer page in Google sanitizers wiki.
 
 - [BINTSAN](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard.
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
@@ -143,8 +143,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Address Sanity
 
-- [AddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#addresssanitizer) - AddressSanitizer for Rust.  
-- [HWAddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted ASan for Rust.  
+- [AddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#addresssanitizer) - AddressSanitizer for Rust (Official Rust docs).  
+- [HWAddressSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted ASan for Rust (Official Rust docs).  
 
 - [ERASan](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a239/1WPcYZde4BW) - Efficient Rust Address Sanitizer.
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
@@ -160,8 +160,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Uninitialized Reads
 
-- [MemorySanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer) - MSan for Rust.  
-- [MemTagSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer) - Memory tagging for Rust.
+- [MemorySanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer) - MemorySanitizer for Rust (Official Rust docs).  
+- [MemTagSanitizer (Rust Unstable Book)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer) - Memory tagging for Rust (Official Rust docs).
 
 ---
 
@@ -170,7 +170,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 ### Sanitizers by Vendors
 
 - [NVIDIA: cuCatch](https://dl.acm.org/doi/abs/10.1145/3591225) - A debugging tool for efficiently catching memory safety violations in CUDA applications.
-- [AMD: Using the AddressSanitizer on a GPU](https://rocm.docs.amd.com/en/latest/conceptual/using-gpu-sanitizer.html) - Beta release for AMD's GPU sanitizer.
+- [AMD: Using the AddressSanitizer on a GPU](https://rocm.docs.amd.com/en/latest/conceptual/using-gpu-sanitizer.html) - Document for AMD's GPU sanitizer.
 
 ### Data Races
 
