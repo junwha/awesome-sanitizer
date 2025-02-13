@@ -144,8 +144,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Address Sanity
 
-- [AddressSanitizer (Rust Docs)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#addresssanitizer) - Address Sanitizer for Rust.  
-- [HWAddressSanitizer (Rust Docs)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted Address Sanitizer  for Rust.  
+- [AddressSanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#addresssanitizer) - Address Sanitizer for Rust.  
+- [HWAddressSanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#hwaddresssanitizer) - Hardware-assisted Address Sanitizer  for Rust.  
 
 - [ERASan](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a239/1WPcYZde4BW) - Efficient Rust Address Sanitizer.
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
@@ -157,12 +157,12 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ### Data Races
 
-- [ThreadSanitizer (Rust Docs)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer) - Thread Sanitizer for Rust.
+- [ThreadSanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer) - Thread Sanitizer for Rust.
 
 ### Uninitialized Reads
 
-- [MemorySanitizer (Rust Docs)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer) - Memory Sanitizer for Rust.  
-- [MemTagSanitizer (Rust Docs)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer) - Memory tagging for Rust.
+- [MemorySanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memorysanitizer) - Memory Sanitizer for Rust.  
+- [MemTagSanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#memtagsanitizer) - Memory tagging for Rust.
 
 ---
 
