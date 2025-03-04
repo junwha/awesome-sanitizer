@@ -4,6 +4,8 @@
 
 Sanitizers are dynamic tools that detect software bugs through compiler instrumentation, inserting runtime checks into the code during compilation. They are often paired with fuzzing, which uses random inputs to thoroughly test the instrumented code.
 
+![Sanitizer_logo](https://github.com/user-attachments/assets/05b83fdd-2930-46df-ba78-e34a339bb6ac)
+
 ## Contents
 - [C/C++](#cc)
   - [Address Sanity](#address-sanity)
