@@ -108,6 +108,10 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [MSET](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a088/21TfesaEHTy) - Evaluating the effectiveness of memory safety sanitizers
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)
 
+- [QMSan](https://hexhive.epfl.ch/publications/files/25NDSS3.pdf) - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing
+  ![Conference](https://img.shields.io/badge/NDSS-2025-lightblue)
+  [![Star](https://img.shields.io/github/stars/heinzeen/qmsan.svg?style=social&label=heinzeen/qmsan)](https://github.com/heinzeen/qmsan)
+
 ### Type Confusion
 
 - [TypeSan](https://dl.acm.org/doi/abs/10.1145/2976749.2978405) - Practical type confusion detection.
