@@ -76,6 +76,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   
 - [CMASan](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a074/21B7RisjQY0) - Custom Memory Allocator-aware Address Sanitizer.
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)
+  [![Star](https://img.shields.io/github/stars/S2-Lab/CMASan.svg?style=social&label=S2-Lab/CMASan)](https://github.com/S2-Lab/CMASan)
 
 ### Undefined Behavior
 
