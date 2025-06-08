@@ -78,6 +78,10 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)
   [![Star](https://img.shields.io/github/stars/S2-Lab/CMASan.svg?style=social&label=S2-Lab/CMASan)](https://github.com/S2-Lab/CMASan)
 
+- [DFirmSan](https://www.sciencedirect.com/science/article/pii/S0167404825001567?casa_token=2yJobOJo0_IAAAAA:SqBqM9nbyqtIQ2el6rhlDX5lJRv-rhbDZwuMXAOwHbnul4TTyat9d6eFwRDW-E7g3ZKbyAI_7TUY) - DFirmSan: A lightweight dynamic memory sanitizer for Linux-based firmware
+  ![Conference](https://img.shields.io/badge/ELSEVIER_C&S-2025-orange)
+  [![Star](https://img.shields.io/github/stars/dierye/dfirmsan.svg?style=social&label=dierye/dfirmsan)](https://github.com/dierye/dfirmsan)
+
 ### Undefined Behavior
 
 - [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang (LLVM) docs for Undefined Behavior Sanitizer.  
