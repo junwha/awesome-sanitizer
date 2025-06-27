@@ -71,7 +71,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   [![Star](https://img.shields.io/github/stars/google/gwpsan.svg?style=social&label=google/gwpsan)](https://github.com/google/gwpsan)
 
 - [GIANTSAN](https://dl.acm.org/doi/10.1145/3620665.3640391) - Efficient memory sanitization with segment folding.
-  ![Conference](https://img.shields.io/badge/ACM_ASPLOS-2024-9163aa)
+  ![Conference](https://img.shields.io/badge/ACM_ASPLOS-2024-9163aa) ![Conference](https://img.shields.io/badge/ACM_TCS-2025-047e63)
   [![Star](https://img.shields.io/github/stars/AceSrc/GiantSan-Artifact.svg?style=social&label=AceSrc/GiantSan-Artifact)](https://github.com/AceSrc/GiantSan-Artifact)
   
 - [CMASan](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a074/21B7RisjQY0) - Custom Memory Allocator-aware Address Sanitizer.
