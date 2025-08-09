@@ -194,6 +194,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 ## Miscellaneous
 
+- [SoK: Sanitizing for security](https://ieeexplore.ieee.org/abstract/document/8835294)
+
 - [DySan](https://dl.acm.org/doi/abs/10.1145/3433210.3453095) - Dynamically sanitizing motion sensor data through adversarial networks.
   ![Conference](https://img.shields.io/badge/ACM_Asia_CCS-2021-a0501b)
   [![Star](https://img.shields.io/github/stars/DynamicSanitizer/DySan.svg?style=social&label=DynamicSanitizer/DySan)](https://github.com/DynamicSanitizer/DySan)
