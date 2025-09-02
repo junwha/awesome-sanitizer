@@ -82,6 +82,11 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/ELSEVIER_C&S-2025-orange)
   [![Star](https://img.shields.io/github/stars/dierye/dfirmsan.svg?style=social&label=dierye/dfirmsan)](https://github.com/dierye/dfirmsan)
 
+- [RangeSanitizer](https://download.vusec.net/papers/rsan_sec25.pdf) - Detecting Memory Errors with Efficient Range Checks
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2025-red)
+  [![Star](https://img.shields.io/github/stars/vusec/rangesanitizer.svg?style=social&label=vusec/rangesanitizer)](https://github.com/vusec/rangesanitizer)
+  
+
 ### Undefined Behavior
 
 - [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang (LLVM) docs for Undefined Behavior Sanitizer.  
