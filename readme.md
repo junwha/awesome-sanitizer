@@ -51,13 +51,13 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2022-blue)
   [![Star](https://img.shields.io/github/stars/HexHive/retrowrite.svg?style=social&label=HexHive/retrowrite)](https://github.com/HexHive/retrowrite)
 
-- [BoKASAN](https://www.usenix.org/conference/usenixsecurity23/presentation/cho) - Binary-only Kernel Address Sanitizer for effective kernel fuzzing.
-  ![Conference](https://img.shields.io/badge/USENIX_SEC-2023-red)
-  [![Star](https://img.shields.io/github/stars/seclab-yonsei/BoKASAN.svg?style=social&label=seclab-yonsei/BoKASAN)](https://github.com/seclab-yonsei/BoKASAN)
-  
 - [SafePM](https://dl.acm.org/doi/10.1145/3492321.3519574) - A sanitizer for persistent memory.
     ![Conference](https://img.shields.io/badge/ACM_EUROSYS-2022-green)
     [![Star](https://img.shields.io/github/stars/TUM-DSE/safepm.svg?style=social&label=TUM-DSE/safepm)](https://github.com/TUM-DSE/safepm)
+
+- [BoKASAN](https://www.usenix.org/conference/usenixsecurity23/presentation/cho) - Binary-only Kernel Address Sanitizer for effective kernel fuzzing.
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2023-red)
+  [![Star](https://img.shields.io/github/stars/seclab-yonsei/BoKASAN.svg?style=social&label=seclab-yonsei/BoKASAN)](https://github.com/seclab-yonsei/BoKASAN)  
 
 - [OBSan](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f103_paper.pdf) - An out-of-bound sanitizer to harden DNN executables.
   ![Conference](https://img.shields.io/badge/NDSS-2023-lightblue)
@@ -142,13 +142,13 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [TCD](https://ieeexplore.ieee.org/abstract/document/8987463) - Statically detecting type confusion errors in C++ programs.
   ![Conference](https://img.shields.io/badge/IEEE_ISSRE-2019-blue)
 
-- [Type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting type confusion with inline type information.
-  ![Conference](https://img.shields.io/badge/NDSS-2025-lightblue)
-  [![Star](https://img.shields.io/github/stars/HexHive/typepp.svg?style=social&label=HexHive/typepp)](https://github.com/HexHive/typepp)
-
 - [T-PRUNIFY](https://www.usenix.org/system/files/usenixsecurity24-zhai.pdf) - Pruning redundant sanitizer checks by developer-implemented type checks.
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
   [![Star](https://img.shields.io/github/stars/seclab-ucr/TPrunify.svg?style=social&label=seclab-ucr/TPrunify)](https://github.com/seclab-ucr/TPrunify)
+
+- [Type++](https://nebelwelt.net/publications/files/25NDSS.pdf) - Prohibiting type confusion with inline type information.
+  ![Conference](https://img.shields.io/badge/NDSS-2025-lightblue)
+  [![Star](https://img.shields.io/github/stars/HexHive/typepp.svg?style=social&label=HexHive/typepp)](https://github.com/HexHive/typepp)
 
 ### Dataflow Analysis
 
