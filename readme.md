@@ -210,6 +210,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   [![Transaction](https://img.shields.io/badge/IEEE_IFS-2024-blue)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
   [![Star](https://img.shields.io/github/stars/zhuhong1996/NeuralSanitizer.svg?style=social&label=zhuhong1996/NeuralSanitizer)](https://github.com/zhuhong1996/NeuralSanitizer)
 
+- [WBSan](https://dl.acm.org/doi/abs/10.1145/3696410.3714622) - WebAssembly Bug Detection for Sanitization and Binary-Only Fuzzing
+  [![Transaction](https://img.shields.io/badge/WWW-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
+
 ---
 
 ## Contributing
