@@ -124,6 +124,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/NDSS-2025-lightblue)
   [![Star](https://img.shields.io/github/stars/heinzeen/qmsan.svg?style=social&label=heinzeen/qmsan)](https://github.com/heinzeen/qmsan)
 
+- [Janitizer](https://dl.acm.org/doi/abs/10.1145/3696443.3708930) - Rethinking Binary Tools for Practical and Comprehensive Security
+  ![Conference](https://img.shields.io/badge/CGO-2025-827429)
+
 ### Type Confusion
 
 - [TypeSan](https://dl.acm.org/doi/abs/10.1145/2976749.2978405) - Practical type confusion detection.
@@ -215,6 +218,8 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [WBSan](https://dl.acm.org/doi/abs/10.1145/3696410.3714622) - WebAssembly Bug Detection for Sanitization and Binary-Only Fuzzing
   [![Transaction](https://img.shields.io/badge/IEEE_WWW-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
 
+- [Optimal String Sanitization Against Strategic Attackers](https://ieeexplore.ieee.org/abstract/document/11173687)
+  [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
 ---
 
 ## Contributing
