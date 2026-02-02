@@ -176,6 +176,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
   [![Star](https://img.shields.io/github/stars/sslab-skku/RustSan.svg?style=social&label=sslab-skku/RustSan)](https://github.com/sslab-skku/RustSan)
 
+- [LiteRSan](https://arxiv.org/abs/2509.16389) - Lightweight Memory Safety Via Rust-specific Program Analysis and Selective Instrumentation
+  ![Conference](https://img.shields.io/badge/arxiv-2025-b31b1b)
+  
 ### Data Races
 
 - [ThreadSanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer) - Thread Sanitizer for Rust.
