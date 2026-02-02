@@ -14,6 +14,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [Uninitialized Reads](#uninitialized-reads)
   - [Type Confusion](#type-confusion)
   - [Dataflow Analysis](#dataflow-analysis)
+  - [Sanitizer Unification](#sanitizer-unification)
 - [Rust](#rust)
   - [Address Sanity](#address-sanity-1)
   - [Data Races](#data-races-1)
