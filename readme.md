@@ -21,7 +21,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [Uninitialized Reads](#uninitialized-reads-1)
 - [GPU](#gpu)
   - [Sanitizers by Vendors](#sanitizers-by-vendors)
-  - [Data Races](#data-races-2)
+  - [Data Races](#data-races-and-others)
 - [Miscellaneous](#miscellaneous)
 
 ---
@@ -203,11 +203,15 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [NVIDIA: cuCatch](https://dl.acm.org/doi/abs/10.1145/3591225) - A debugging tool for efficiently catching memory safety violations in CUDA applications.
 - [AMD: Using the AddressSanitizer on a GPU](https://rocm.docs.amd.com/en/latest/conceptual/using-gpu-sanitizer.html) - Document for AMD's GPU sanitizer.
 
-### Data Races
+### Data Races and Others
 
 - [iGUARD](https://dl.acm.org/doi/abs/10.1145/3477132.3483545) - In-GPU advanced race detection.
   ![Conference](https://img.shields.io/badge/ACM_SOSP-2021-177e25)
   [![Star](https://img.shields.io/github/stars/csl-iisc/iGUARD-SOSP21.svg?style=social&label=csl-iisc/iGUARD-SOSP21)](https://github.com/csl-iisc/iGUARD-SOSP21)
+
+- [RedSan](https://dl.acm.org/doi/full/10.1145/3712285.3759830) - A Redundant Memory Instruction Sanitizer for GPU Programs
+  ![Conference](https://img.shields.io/badge/ACM_SC-2025-333)
+
 
 ---
 
