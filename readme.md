@@ -159,6 +159,11 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [DataFlowSanitizer (Clang Documentation)](https://clang.llvm.org/docs/DataFlowSanitizer.html) - A general data flow analysis framework.
 
+### Sanitizer Unification
+- [CombiSan](https://download.vusec.net/papers/combisan_sec26.pdf) - Unifying Software Sanitizers for Comprehensive Fuzzing
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2026-red)
+  [![Star](https://img.shields.io/github/stars/vusec/combisan.svg?style=social&label=vusec/combisan)](https://github.com/vusec/combisan)
+
 ---
 
 ## Rust
