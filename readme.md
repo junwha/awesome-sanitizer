@@ -239,7 +239,11 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   [![Transaction](https://img.shields.io/badge/IEEE_WWW-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
 
 - [Optimal String Sanitization Against Strategic Attackers](https://ieeexplore.ieee.org/abstract/document/11173687)
-  [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
+  [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2025-blue)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
+
+- [ProSan](https://ieeexplore.ieee.org/abstract/document/11352994) - Utility-Based Prompt Privacy Sanitizer
+  [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2026-blue)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
+
 ---
 
 ## Contributing
