@@ -212,6 +212,13 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [RedSan](https://dl.acm.org/doi/full/10.1145/3712285.3759830) - A Redundant Memory Instruction Sanitizer for GPU Programs
   ![Conference](https://img.shields.io/badge/ACM_SC-2025-333)
 
+- [TritonSan](http://github.com/microsoft/triton-shared/blob/main/triton-san/doc/triton-conf-2025-poster.pdf) - Toward Precise Debugging of Triton Kernels via LLVM Sanitizers
+  ![Microsoft](https://img.shields.io/badge/Microsoft-f25022)
+  [![Star](https://img.shields.io/github/stars/heinzeen/qmsan.svg?style=social&label=microsoft/triton-shared)]([https://github.com/heinzeen/qmsan](https://github.com/microsoft/triton-shared/blob/main/triton-san/README.md))
+
+
+- [Triton-Sanitizer](https://dl.acm.org/doi/abs/10.1145/3779212.3790241) - A Fast and Device-Agnostic Memory Sanitizer for Triton with Rich Diagnostic Context
+ ![Conference](https://img.shields.io/badge/ACM_ASPLOS-2026-9163aa)
 
 ---
 
