@@ -129,7 +129,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/CGO-2025-827429)
 
 - [BSan](https://www.ndss-symposium.org/wp-content/uploads/ndss26-poster-91.pdf) - A Non-Intrusive and Comprehensive Binary-Level Memory Sanitizer
-  ![Conference](https://img.shields.io/badge/NDSS-2026-Poster-lightblue)
+  ![Conference](https://img.shields.io/badge/NDSS_Poster-2026-lightblue)
 
 ### Type Confusion
 
