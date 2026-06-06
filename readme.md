@@ -128,6 +128,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [Janitizer](https://dl.acm.org/doi/abs/10.1145/3696443.3708930) - Rethinking Binary Tools for Practical and Comprehensive Security
   ![Conference](https://img.shields.io/badge/CGO-2025-827429)
 
+- [BSan](https://www.ndss-symposium.org/wp-content/uploads/ndss26-poster-91.pdf) - A Non-Intrusive and Comprehensive Binary-Level Memory Sanitizer
+  ![Conference](https://img.shields.io/badge/NDSS-2026-Poster-lightblue)
+
 ### Type Confusion
 
 - [TypeSan](https://dl.acm.org/doi/abs/10.1145/2976749.2978405) - Practical type confusion detection.
