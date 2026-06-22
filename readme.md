@@ -17,6 +17,7 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   - [Sanitizer Unification](#sanitizer-unification)
 - [Rust](#rust)
   - [Address Sanity](#address-sanity-1)
+  - [Undefined Behavior](#undefined-behavior-1)
   - [Data Races](#data-races-1)
   - [Uninitialized Reads](#uninitialized-reads-1)
 - [GPU](#gpu)
@@ -75,6 +76,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/ACM_ASPLOS-2024-9163aa) ![Conference](https://img.shields.io/badge/ACM_TCS-2025-047e63)
   [![Star](https://img.shields.io/github/stars/AceSrc/GiantSan-Artifact.svg?style=social&label=AceSrc/GiantSan-Artifact)](https://github.com/AceSrc/GiantSan-Artifact)
   
+- [Top of the Heap](https://dl.acm.org/doi/10.1145/3658644.3690310) - Efficient memory error protection of safe heap objects.
+  ![Conference](https://img.shields.io/badge/ACM_CCS-2024-a0501b)
+
 - [CMASan](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a074/21B7RisjQY0) - Custom Memory Allocator-aware Address Sanitizer.
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)
   [![Star](https://img.shields.io/github/stars/S2-Lab/CMASan.svg?style=social&label=S2-Lab/CMASan)](https://github.com/S2-Lab/CMASan)
@@ -89,7 +93,15 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   
 - [OLASan](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a749/251mHpwGM3S) - Practical Object-Level Sanitizer with Aggregated Memory Access and Custom Allocator
   ![Conference](https://img.shields.io/badge/IEEE_ICSE-2025-blue)
-  
+
+- [Beyond Tag Collision](https://dl.acm.org/doi/10.1145/3719027.3765059) - Cluster-based memory management for tag-based sanitizers.
+  ![Conference](https://img.shields.io/badge/ACM_CCS-2025-a0501b)
+  [![Star](https://img.shields.io/github/stars/Yiruma96/ClusterTag-repo.svg?style=social&label=Yiruma96/ClusterTag-repo)](https://github.com/Yiruma96/ClusterTag-repo)
+
+- [NanoTag](https://arxiv.org/abs/2509.22027) - Systems support for efficient byte-granular overflow detection on ARM MTE.
+  ![Conference](https://img.shields.io/badge/IEEE_S&P-2026-blue)
+  [![Star](https://img.shields.io/github/stars/ice-rlab/nanotag.svg?style=social&label=ice-rlab/nanotag)](https://github.com/ice-rlab/nanotag)
+
 ### Undefined Behavior
 
 - [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang (LLVM) docs for Undefined Behavior Sanitizer.  
@@ -159,6 +171,10 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/NDSS-2025-lightblue)
   [![Star](https://img.shields.io/github/stars/HexHive/typepp.svg?style=social&label=HexHive/typepp)](https://github.com/HexHive/typepp)
 
+- [Sourcerer](https://link.springer.com/chapter/10.1007/978-3-031-97620-9_5) - Channeling the void: precise type confusion detection covering void* casts.
+  ![Conference](https://img.shields.io/badge/DIMVA-2025-7d3c98)
+  [![Star](https://img.shields.io/github/stars/HexHive/Sourcerer.svg?style=social&label=HexHive/Sourcerer)](https://github.com/HexHive/Sourcerer)
+
 ### Dataflow Analysis
 
 - [DataFlowSanitizer (Clang Documentation)](https://clang.llvm.org/docs/DataFlowSanitizer.html) - A general data flow analysis framework.
@@ -187,7 +203,16 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [LiteRSan](https://arxiv.org/abs/2509.16389) - Lightweight Memory Safety Via Rust-specific Program Analysis and Selective Instrumentation
   ![Conference](https://img.shields.io/badge/arxiv-2025-b31b1b)
-  
+
+- [SafeFFI](https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf) - Efficient sanitization at the boundary between safe and unsafe code in Rust and mixed-language applications.
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2026-red)
+
+### Undefined Behavior
+
+- [Miri](https://dl.acm.org/doi/10.1145/3776690) - Practical undefined behavior detection for Rust.
+  ![Conference](https://img.shields.io/badge/ACM_POPL-2026-4a5568)
+  [![Star](https://img.shields.io/github/stars/rust-lang/miri.svg?style=social&label=rust-lang/miri)](https://github.com/rust-lang/miri)
+
 ### Data Races
 
 - [ThreadSanitizer (Rust Documentation)](https://doc.rust-lang.org/beta/unstable-book/compiler-flags/sanitizer.html#threadsanitizer) - Thread Sanitizer for Rust.
@@ -215,6 +240,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [RedSan](https://dl.acm.org/doi/full/10.1145/3712285.3759830) - A Redundant Memory Instruction Sanitizer for GPU Programs
   ![Conference](https://img.shields.io/badge/ACM_SC-2025-333)
 
+- [SafeRace](https://dl.acm.org/doi/10.1145/3763075) - Assessing and addressing WebGPU memory safety in the presence of data races.
+  ![Conference](https://img.shields.io/badge/ACM_OOPSLA-2025-d46b08)
+
 - [TritonSan](http://github.com/microsoft/triton-shared/blob/main/triton-san/doc/triton-conf-2025-poster.pdf) - Toward Precise Debugging of Triton Kernels via LLVM Sanitizers
   ![Microsoft](https://img.shields.io/badge/Microsoft-f25022)
   [![Star](https://img.shields.io/github/stars/heinzeen/qmsan.svg?style=social&label=microsoft/triton-shared)](https://github.com/microsoft/triton-shared/blob/main/triton-san/README.md)
@@ -236,6 +264,10 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [NeuralSanitizer](https://ieeexplore.ieee.org/abstract/document/10504286) - Detecting backdoors in neural networks.
   [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2024-blue)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
   [![Star](https://img.shields.io/github/stars/zhuhong1996/NeuralSanitizer.svg?style=social&label=zhuhong1996/NeuralSanitizer)](https://github.com/zhuhong1996/NeuralSanitizer)
+
+- [UBfuzz](https://dl.acm.org/doi/10.1145/3617232.3624874) - Finding bugs in sanitizer implementations.
+  ![Conference](https://img.shields.io/badge/ACM_ASPLOS-2024-9163aa)
+  [![Star](https://img.shields.io/github/stars/shao-hua-li/UBGen.svg?style=social&label=shao-hua-li/UBGen)](https://github.com/shao-hua-li/UBGen)
 
 - [WBSan](https://dl.acm.org/doi/abs/10.1145/3696410.3714622) - WebAssembly Bug Detection for Sanitization and Binary-Only Fuzzing
   [![Transaction](https://img.shields.io/badge/IEEE_WWW-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
