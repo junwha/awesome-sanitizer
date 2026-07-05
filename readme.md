@@ -79,6 +79,20 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [Top of the Heap](https://dl.acm.org/doi/10.1145/3658644.3690310) - Efficient memory error protection of safe heap objects.
   ![Conference](https://img.shields.io/badge/ACM_CCS-2024-a0501b)
 
+- [ShadowBound](https://www.usenix.org/conference/usenixsecurity24/presentation/yu-zheng) - Efficient heap memory protection through advanced shadow metadata management and customized compiler optimization.
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
+  [![Star](https://img.shields.io/github/stars/cla7aye15I4nd/shadowbound.svg?style=social&label=cla7aye15I4nd/shadowbound)](https://github.com/cla7aye15I4nd/shadowbound)
+
+- [CAMP](https://www.usenix.org/conference/usenixsecurity24/presentation/lin-zhenpeng) - Compiler and allocator-based heap memory protection using boundary-checking instrumentation and escape tracking.
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
+  [![Star](https://img.shields.io/github/stars/cla7aye15I4nd/CAMP.svg?style=social&label=cla7aye15I4nd/CAMP)](https://github.com/cla7aye15I4nd/CAMP)
+
+- [IPEA-San](https://www.ndss-symposium.org/ndss-paper/facilitating-non-intrusive-in-vivo-firmware-testing-with-stateless-instrumentation/) - Pointer capability-based sanitizer for resource-constrained IoT firmware with stateless instrumentation.
+  ![Conference](https://img.shields.io/badge/NDSS-2024-lightblue)
+
+- [Sticky Tags](https://ieeexplore.ieee.org/document/10646704) - Efficient and deterministic spatial memory error mitigation using ARM MTE with persistent memory tags.
+  ![Conference](https://img.shields.io/badge/IEEE_S&P-2024-blue)
+
 - [CMASan](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a074/21B7RisjQY0) - Custom Memory Allocator-aware Address Sanitizer.
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)
   [![Star](https://img.shields.io/github/stars/S2-Lab/CMASan.svg?style=social&label=S2-Lab/CMASan)](https://github.com/S2-Lab/CMASan)
@@ -98,9 +112,15 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/ACM_CCS-2025-a0501b)
   [![Star](https://img.shields.io/github/stars/Yiruma96/ClusterTag-repo.svg?style=social&label=Yiruma96/ClusterTag-repo)](https://github.com/Yiruma96/ClusterTag-repo)
 
+- [PSan](https://security.csl.toronto.edu/wp-content/uploads/2025/11/sxu_acsac2025_psan.pdf) - Hybrid metadata scheme for efficient pointer checking combining fat pointers and shadow memory.
+  ![Conference](https://img.shields.io/badge/ACSAC-2025-1a85ff)
+
 - [NanoTag](https://arxiv.org/abs/2509.22027) - Systems support for efficient byte-granular overflow detection on ARM MTE.
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2026-blue)
   [![Star](https://img.shields.io/github/stars/ice-rlab/nanotag.svg?style=social&label=ice-rlab/nanotag)](https://github.com/ice-rlab/nanotag)
+
+- [FPN](https://www.ndss-symposium.org/ndss-paper/fast-pointer-nullification-for-use-after-free-prevention/) - Compiler-instrumented use-after-free prevention via fast pointer nullification at region-level metadata.
+  ![Conference](https://img.shields.io/badge/NDSS-2026-lightblue)
 
 ### Undefined Behavior
 
@@ -116,6 +136,13 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [BINTSAN](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard.
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2024-red)
+
+- [DMARacer](https://dl.acm.org/doi/10.1145/3719027.3765126) - Dynamic detection of vulnerable DMA race conditions in Linux kernel drivers.
+  ![Conference](https://img.shields.io/badge/ACM_CCS-2025-a0501b)
+  [![Star](https://img.shields.io/github/stars/vusec/dmaracer.svg?style=social&label=vusec/dmaracer)](https://github.com/vusec/dmaracer)
+
+- [HawkSet](https://dl.acm.org/doi/10.1145/3689031.3717477) - Automatic and efficient concurrent persistent memory bug detection via lockset analysis.
+  ![Conference](https://img.shields.io/badge/ACM_EUROSYS-2025-green)
 
 ### Uninitialized Reads
 
@@ -237,6 +264,12 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/ACM_SOSP-2021-177e25)
   [![Star](https://img.shields.io/github/stars/csl-iisc/iGUARD-SOSP21.svg?style=social&label=csl-iisc/iGUARD-SOSP21)](https://github.com/csl-iisc/iGUARD-SOSP21)
 
+- [HiRace](https://dl.acm.org/doi/10.1109/SC41406.2024.00042) - Accurate and fast data race checking for GPU programs using source-code instrumentation.
+  ![Conference](https://img.shields.io/badge/IEEE_SC-2024-blue)
+
+- [GPUArmor](https://arxiv.org/abs/2502.17780) - Hardware-software co-design for efficient and scalable memory safety on GPUs.
+  ![Conference](https://img.shields.io/badge/IEEE_ISCA-2025-336699)
+
 - [RedSan](https://dl.acm.org/doi/full/10.1145/3712285.3759830) - A Redundant Memory Instruction Sanitizer for GPU Programs
   ![Conference](https://img.shields.io/badge/ACM_SC-2025-333)
 
@@ -249,6 +282,12 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [Triton-Sanitizer](https://dl.acm.org/doi/abs/10.1145/3779212.3790241) - A Fast and Device-Agnostic Memory Sanitizer for Triton with Rich Diagnostic Context
  ![Conference](https://img.shields.io/badge/ACM_ASPLOS-2026-9163aa)
+
+- [SuperCollider](https://dl.acm.org/doi/10.1145/3808339) - Scalable and effective data race detection for CUDA programs.
+  ![Conference](https://img.shields.io/badge/ACM_PLDI-2026-8c5a2c)
+
+- [CuSafe](https://hongyi.lu/papers/cusafe-sec26.pdf) - Fast detection of memory safety vulnerabilities in CUDA programs.
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2026-red)
 
 ---
 
