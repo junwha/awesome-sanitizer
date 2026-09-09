@@ -317,6 +317,22 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [ProSan](https://ieeexplore.ieee.org/abstract/document/11352994) - Utility-Based Prompt Privacy Sanitizer
   [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2026-blue)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
 
+
+- [Resolution Without Dissent](https://doi.org/10.1109/SP61157.2025.00004) - In-path per-query DNS sanitization to defeat surreptitious communication.
+  ![Conference](https://img.shields.io/badge/IEEE_S&P-2025-blue)
+
+- [OS-Sanitizer](https://www.usenix.org/conference/usenixsecurity26/presentation/crump) - System-wide latent defect inference in Linux applications using eBPF.
+  ![Conference](https://img.shields.io/badge/USENIX_SEC-2026-red)
+  [![Star](https://img.shields.io/github/stars/os-sanitizer/os-sanitizer.svg?style=social&label=os-sanitizer/os-sanitizer)](https://github.com/os-sanitizer/os-sanitizer)
+
+- [Anota](https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/) - Annotation-based sanitizer framework for detecting business logic vulnerabilities.
+  ![Conference](https://img.shields.io/badge/NDSS-2026-lightblue)
+  [![Star](https://img.shields.io/github/stars/ANOTA-Sanitizer/ANOTA.svg?style=social&label=ANOTA-Sanitizer/ANOTA)](https://github.com/ANOTA-Sanitizer/ANOTA)
+
+- [Prεεmpt](https://www.ndss-symposium.org/ndss-paper/pr%CE%B5%CE%B5mpt-sanitizing-sensitive-prompts-for-llms/) - Sanitizing sensitive LLM prompts with format-preserving encryption and metric differential privacy.
+  ![Conference](https://img.shields.io/badge/NDSS-2026-lightblue)
+  [![Star](https://img.shields.io/github/stars/danshumaan/preempt.svg?style=social&label=danshumaan/preempt)](https://github.com/danshumaan/preempt)
+
 ---
 
 ## Contributing
