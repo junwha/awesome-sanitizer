@@ -122,6 +122,9 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [FPN](https://www.ndss-symposium.org/ndss-paper/fast-pointer-nullification-for-use-after-free-prevention/) - Compiler-instrumented use-after-free prevention via fast pointer nullification at region-level metadata.
   ![Conference](https://img.shields.io/badge/NDSS-2026-lightblue)
 
+- [QuickSafe / TagASan](https://doi.org/10.1109/SP63933.2026.00085) - Targeted memory-corruption hardening with an ASan extension that traces faulting accesses to their originating allocations.
+  ![Conference](https://img.shields.io/badge/IEEE_S&P-2026-blue)
+
 ### Undefined Behavior
 
 - [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang (LLVM) docs for Undefined Behavior Sanitizer.  
@@ -310,6 +313,13 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 
 - [WBSan](https://dl.acm.org/doi/abs/10.1145/3696410.3714622) - WebAssembly Bug Detection for Sanitization and Binary-Only Fuzzing
   [![Transaction](https://img.shields.io/badge/IEEE_WWW-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/3696410)
+
+- [MileSan](https://dl.acm.org/doi/10.1145/3719027.3765066) - RTL sanitizer for detecting exploitable microarchitectural information leakage using differential hardware-software taint tracking.
+  ![Conference](https://img.shields.io/badge/ACM_CCS-2025-a0501b)
+  [![Star](https://img.shields.io/github/stars/comsec-group/milesan-docker.svg?style=social&label=comsec-group/milesan-docker)](https://github.com/comsec-group/milesan-docker)
+
+- [Practical TFHE Ciphertext Sanitization](https://dl.acm.org/doi/10.1145/3719027.3765231) - Sanitizing homomorphic ciphertexts to protect circuit privacy during oblivious evaluation.
+  ![Conference](https://img.shields.io/badge/ACM_CCS-2025-a0501b)
 
 - [Optimal String Sanitization Against Strategic Attackers](https://ieeexplore.ieee.org/abstract/document/11173687)
   [![Transaction](https://img.shields.io/badge/IEEE_TIFS-2025-blue)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
