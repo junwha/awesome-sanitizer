@@ -125,9 +125,6 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
 - [QuickSafe: Targeted Hardening Against Memory Corruption](https://doi.org/10.1109/SP63933.2026.00085) - Targeted memory-corruption hardening with an ASan extension that traces faulting accesses to their originating allocations.
   ![Conference](https://img.shields.io/badge/IEEE_S&P-2026-blue)
 
-- [PTSan](https://arxiv.org/abs/2607.19246) - A practical memory safety sanitizer for C/C++ with pointer-object authority.
-  ![Conference](https://img.shields.io/badge/arxiv-2026-b31b1b)
-
 ### Undefined Behavior
 
 - [UndefinedBehaviorSanitizer (Clang Documentation)](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) - Official Clang (LLVM) docs for Undefined Behavior Sanitizer.  
