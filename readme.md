@@ -338,6 +338,10 @@ Sanitizers are dynamic tools that detect software bugs through compiler instrume
   ![Conference](https://img.shields.io/badge/USENIX_SEC-2026-red)
   [![Star](https://img.shields.io/github/stars/os-sanitizer/os-sanitizer.svg?style=social&label=os-sanitizer/os-sanitizer)](https://github.com/os-sanitizer/os-sanitizer)
 
+- [SemSan](https://www.usenix.org/conference/woot26/presentation/sanft) - Configurable eBPF-based sanitizer for detecting system-level semantic bugs such as path traversals and command injections.
+  ![Conference](https://img.shields.io/badge/USENIX_WOOT-2026-red)
+  [![Star](https://img.shields.io/github/stars/AutoSecLab/SemanticSanitizer.svg?style=social&label=AutoSecLab/SemanticSanitizer)](https://github.com/AutoSecLab/SemanticSanitizer)
+
 - [Anota](https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/) - Annotation-based sanitizer framework for detecting business logic vulnerabilities.
   ![Conference](https://img.shields.io/badge/NDSS-2026-lightblue)
   [![Star](https://img.shields.io/github/stars/ANOTA-Sanitizer/ANOTA.svg?style=social&label=ANOTA-Sanitizer/ANOTA)](https://github.com/ANOTA-Sanitizer/ANOTA)
